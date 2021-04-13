@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+}
+body {
+  margin: 0;
+  font-family: "Merriweather Sans", sans-serif;
+}
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+a {
+  text-decoration: none;
+}

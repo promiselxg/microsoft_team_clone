@@ -1,0 +1,73 @@
+.header {
+  display: flex;
+  background-color: #0a0a0a;
+  height: 60px;
+  width: 100%;
+  color: #fff;
+}
+.header__sideBar {
+  display: flex;
+  flex: 0.25;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__sideBar__left {
+  display: flex;
+  flex: 0.2;
+  justify-content: center;
+}
+.header__sideBar__left > .MuiSvgIcon-root {
+  font-size: 30px !important;
+}
+.header__sideBar__right {
+  display: flex;
+  flex: 0.8;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.header__sideBar__right > h1 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.header__right {
+  display: flex;
+  flex: 0.5;
+  align-items: center;
+}
+.header__rightSearch {
+  display: flex;
+  align-items: center;
+  background-color: #1f1f1f;
+  border-radius: 3px;
+  padding: 5px;
+  width: 100%;
+  color: gray;
+}
+.header__rightSearch > form {
+  display: flex;
+  width: 100%;
+}
+.header__rightSearch > form > input {
+  width: 100%;
+  padding: 5px;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #ccc;
+}
+.header__rightSearch > form > button {
+  display: none;
+}
+.header__user {
+  display: flex;
+  align-items: center;
+  flex: 0.25;
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+.MuiAvatar-img {
+  cursor: pointer !important;
+  height: 30px !important;
+  width: 30px !important;
+  border-radius: 50% !important;
+}
